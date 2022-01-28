@@ -1,0 +1,24 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 97vh;
+    column-gap: 0;
+    row-gap: 0px;
+    margin: 0;
+    padding: 0;
+    align-content: flex-start;
+    flex: 1 1 0%;
+}
+html, body {margin:0;padding:0;height:100%;}
+body{
+    display: flex;
+    flex-direction: column;
+
+}
+#container > *{
+    flex: 1 1 auto;
+}
+
+.pen{
+    background-color: black;
+}
